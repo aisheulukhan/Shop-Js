@@ -1,0 +1,74 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.content{
+    display: flex;
+}
+.content button{
+    margin-left: 20px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    font-size: 16px;
+}
+.fruit img{
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+}
+.products {
+    width: 500px;
+    height: 80vh;
+    background-color: rgb(219, 214, 214);
+    border-radius: 15px;
+    overflow-y: auto;
+    padding: 10px;
+    gap: 10px;
+}
+.container {
+    display: flex;
+    gap: 10px;
+}
+.fruit-box{
+    width: 500px;
+    background-color: rgb(219, 214, 214);
+    border-radius: 15px;
+    padding: 10px;
+}
+.box-content{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.basket-box{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    gap: 10px;
+}
+.hide {
+    display: none;
+}
+.fruit-price{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.totalPrice {
+    font-weight: 800;
+}
+
+.fruit {
+    height: 170px;
+    width: 170px;
+}
+
+.box {
+    display: flex;
+    gap: 5px;
+}
